@@ -2,7 +2,7 @@
 
 This project focuses on improving the accuracy of a cardiovascular disease prediction model through various data preprocessing techniques and advanced resampling methods.
 
-Initial Steps:
+### Initial Steps:
 1. Data Cleaning: Removed unnecessary columns such as height and weight to streamline the dataset.
 2. Data Visualization: Performed exploratory data analysis to gain insights into the dataset's characteristics.
 3. Data Normalization: Standardized numerical features to ensure consistent scale across variables.
@@ -11,10 +11,10 @@ Initial Steps:
 Model Performance Enhancement:
 Initially, the model's performance was suboptimal. To address this issue, we implemented the ADASYN (Adaptive Synthetic) sampling technique.
 
-ADASYN Implementation:
+###ADASYN Implementation:
 By employing the ADASYN method, we significantly increased the number of samples for minority classes. This resampling technique led to a substantial enhancement in the model's predictive accuracy. The rebalanced dataset resulted in improved performance in predicting Cardiovascular Disease.
 
-Key Findings:
+### Key Findings:
 1. ADASYN effectively addressed the class imbalance problem in our dataset.
 2. The balanced data led to a more robust and accurate prediction model.
 3. The model's ability to identify cardiovascular disease cases improved considerably.
